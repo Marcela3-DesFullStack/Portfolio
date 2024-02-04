@@ -18,11 +18,11 @@ function Navbar() {
           <li className="hover:text-customStone"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <nav className="sm:flex sm:justify-between items-center h-5 p-6 hidden text-sm relative">
+      <nav className="sm:flex sm:justify-between items-center h-4 p-6 hidden text-sm relative">
         <img
           src={menuIcon}
           alt="Menu Icon"
-          className="sm: absolute left-[6%] top-[5%] w-9 h-9 cursor-pointer"
+          className="sm: absolute left-[6%] top-[5%] w-8 h-8 cursor-pointer"
           onClick={handleMenu}
         />
         {isMenuOpen && (
