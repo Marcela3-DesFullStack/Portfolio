@@ -21,8 +21,8 @@ export default {
     screens: {
       '2x1': {'max': '1535px'},
       'xl': {'max': '1279px'},
-      'lg': {'max': '1023px'},
-      'md': {'max': '767px'},
+      'lg': {'min': '1000px'},
+      'md': {'min': '760px'},
       'sm': {'max': '450px'},
     },
   },
