@@ -5,11 +5,7 @@ export default {
     fontFamily: {
       sans: ["Open Sans", "sans-serif"],
     },
-    fontSize: {
-      'xs': '0.75rem',
-      'sm': '0.875rem',
-      'base': '1rem',
-    },
+    
     colors: {
       customWhite: '#f0ffff',
       customStone: '#688B8A',

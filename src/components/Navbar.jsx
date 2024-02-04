@@ -28,8 +28,8 @@ function Navbar() {
         {isMenuOpen && (
             <div className=" grid grid-cols-2 gap-4 pl-12">
                 <ul>
-                    <li className="hover:text-customStone"><a href="#about">About</a></li>
-                    <li className="hover:text-customStone"><a href="#services">Background</a></li>
+                    <li className="hover:text-customStone"><a href="/#about">About</a></li>
+                    <li className="hover:text-customStone"><a href="#services">Services</a></li>
                 </ul>
                 <ul>
                     <li className="hover:text-customStone"><a href="#portfolio">Portfolio</a></li>
