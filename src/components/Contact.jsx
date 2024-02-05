@@ -3,7 +3,7 @@ import { Card, Input, Button, Typography, } from "@material-tailwind/react";
 function ContactForm() {
     return (
        <Card className="max-w-md mx-auto mt-6 mb- p-4 w-1/3 flex flex-col justify-center sm:w-full bg-customCoolgray">
-            <Typography className=" text-customCobalt text-2xl">
+            <Typography id="contact" className=" text-customCobalt text-2xl">
             Contact me
             </Typography>
             <Typography className="mt-1 font-normal text-customCobalt">

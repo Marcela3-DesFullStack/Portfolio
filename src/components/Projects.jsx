@@ -18,7 +18,7 @@ function Project() {
    
   return (
     <div className="container mx-auto sm:p-4 lg:p-8 bg-customWhite">
-      <p className="mt-4 text-bold text-4xl text-customCobalt sm:text-[25px]">Projects</p>
+      <p id="projects" className="mt-4 text-bold text-4xl text-customCobalt sm:text-[25px]">Projects</p>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         {projects.map((project, id) => (
           <Card key={id} className="mt-6 border border-blue-500 bg-gray-200 mt-6 max-w-xs rounded-xl border-solid bg-customCobalt text-customWhite">

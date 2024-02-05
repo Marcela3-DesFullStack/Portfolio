@@ -18,7 +18,7 @@ function Skill() {
    
   return (
     <div className="container mx-auto sm:p-4 lg:p-8 bg-customWhite">
-      <p className="mt-4 text-bold text-4xl text-customCobalt sm:text-[25px]">My Skills</p>
+      <p id="skills" className="mt-4 text-bold text-4xl text-customCobalt sm:text-[25px]">My Skills</p>
       <div className="lg:flex lg:flex-wrap gap-2 justify-center">
         {skills.map((skill, id) => (
           <Card key={id} className="mt-6 max-w-xs rounded-xl border-solid bg-customCobalt text-customWhite">

@@ -13,8 +13,8 @@ function Navbar() {
       <nav className="sm:hidden pt-3 pb-2">
         <ul className="flex justify-center gap-12">
           <li className="hover:text-customStone"><a href="#about">About</a></li>
-          <li className="hover:text-customStone"><a href="#services">Background</a></li>
-          <li className="hover:text-customStone"><a href="#portfolio">Portfolio</a></li>
+          <li className="hover:text-customStone"><a href="#skills">Skills</a></li>
+          <li className="hover:text-customStone"><a href="#projects">Projects</a></li>
           <li className="hover:text-customStone"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -29,10 +29,10 @@ function Navbar() {
             <div className=" grid grid-cols-2 gap-4 pl-12">
                 <ul>
                     <li className="hover:text-customStone"><a href="/#about">About</a></li>
-                    <li className="hover:text-customStone"><a href="#services">Services</a></li>
+                    <li className="hover:text-customStone"><a href="#skills">Skills</a></li>
                 </ul>
                 <ul>
-                    <li className="hover:text-customStone"><a href="#portfolio">Portfolio</a></li>
+                    <li className="hover:text-customStone"><a href="#projects">Projects</a></li>
                     <li className="hover:text-customStone"><a href="#contact">Contact</a></li>
                 </ul>
             </div>

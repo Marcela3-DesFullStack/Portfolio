@@ -1,11 +1,19 @@
-
+import TailwindIcon from "../assets/img/TailwindIcon.png"
+import MySQLicon from "../assets/img/MySQLicon.png"
+import jsonIcon from "../assets/img/jsonIcon.png"
+import jiraIcon from "../assets/img/jiraIcon.svg"
+import javascriptIcon from "../assets/img/javascriptIcon.png"
+import htmlIcon from "../assets/img/htmlIcon.png"
+import figmaIcon from "../assets/img/figmaIcon (1).png"
+import cssIcon from "../assets/img/cssIcon.png"
+import bootstrapIcon from "../assets/img/bootstrapIcon.png"
 
 
 function About() {
   return (
     <div className="container mx-auto sm:p-4 lg:p-20 bg-customCoolgray p-[5%]">
 
-        <div className="container mx-auto grid grid-cols-2 gap-12 space-x-6 sm:grid sm:grid-cols-1 sm:gap-3 sm:space-2 ">
+        <div className="container mx-auto  gap-12 space-x-6 sm:grid sm:grid-cols-1 sm:gap-3 sm:space-2 ">
            
             <div id="about" className=" pt-4 sm:pt-0 text-customCobalt ">
                 <p className="mb-3  text-bold text-3xl text-customCobalt sm:text-[25px]">Providing Web Solutions</p>
@@ -18,9 +26,9 @@ function About() {
                 </p>
             </div> 
             <div className="flex flex-col items-left pl-4 pt-[20px] space-x-8 sm:space-x-1 sm:ml-0 sm:pl-0 sm:leading-4 sm:pt-0">  
-                <p className="mb-4 text-bold text-3xl text-customCobalt sm:text-[25px] ">Background</p> 
+                <p className="mb-4 text-bold text-3xl text-customCobalt sm:text-[25px] ">Education</p> 
                 
-                <div className="sm:grid sm:grid-col sm:text-[13px] sm:space-y-1 sm:space-x-1  sm: items-left  ">
+                <div className="sm:grid sm:grid-col text-lg sm:text-[13px] sm:space-y-1 sm:space-x-1  sm: items-left  ">
                     <div className="flex flex-row items-center text-customCobalt  ">
                     
                         <svg 
@@ -80,6 +88,28 @@ function About() {
                         </svg>
                         Engineer
                     </div>
+                    <div className="flex flex-col ">
+                        <div>
+                            <p className="mt-2 mb-4 text-bold text-3xl text-customCobalt sm:text-[25px] ">Languages and Tools</p>
+                        </div>
+                        <div className="flex flex-wrap justify-center gap-4 mx-auto sm:grid sm:grid-cols-5">
+                            <img src={htmlIcon} alt="html Icon" className="h-10 w-10"/>
+                            <img src={cssIcon} alt="html Icon" className="h-10 w-10"/>
+                            <img src={javascriptIcon} alt="html Icon" className="h-10 w-10"/>
+                            <img src={bootstrapIcon} alt="html Icon" className="h-10 w-10"/>
+                            <img src={TailwindIcon} alt="html Icon" className="h-10 w-10"/>
+                            <img src={jsonIcon} alt="html Icon" className="h-10 w-10"/>
+                            <img src={MySQLicon} alt="html Icon" className="h-10 w-10"/>
+                            <img src={figmaIcon} alt="html Icon" className="h-10 w-10"/>
+                            <img src={jiraIcon} alt="html Icon" className="h-10 w-10"/>
+      
+                        </div>
+
+                    </div>
+
+
+
+
                 </div>
             </div>
         </div>
