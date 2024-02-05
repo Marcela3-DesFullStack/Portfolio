@@ -1,6 +1,7 @@
 import { Card, CardBody, Typography, } from "@material-tailwind/react";
-import  cardSkill  from "./Services.js"
 import { useEffect, useState} from "react"
+import Services from "./Services";
+const { cardSkill } = Services;
 
 function Skill() {
   const [skills, setSkills] = useState([]);
@@ -17,26 +18,24 @@ function Skill() {
    
   return (
     <div className="container mx-auto sm:p-4 lg:p-8 bg-customWhite">
-      <div> 
-        <p className="mt-4 text-bold text-4xl text-customCobalt sm:text-[25px]">My Skills</p>
-        <div className="lg:flex gap-4">
-          {skills.map ((skill, id) => (
-          <Card key={id} className="mt-6 p-1/2 rounded-xl border-solid bg-customCobalt text-customWhite ">
-            <CardBody>
-              <img src={skill.icon} alt={skill.icon} className= "w-10 h-10 pb-2 mx-auto sm=w-6 sm:h-10"/>
-              <Typography className="mb-2 md:text-2x1 sm:text-sm">
+      <p className="mt-4 text-bold text-4xl text-customCobalt sm:text-[25px]">My Skills</p>
+      <div className="lg:flex lg:flex-wrap gap-2 justify-center">
+        {skills.map((skill, id) => (
+          <Card key={id} className="mt-6 max-w-xs rounded-xl border-solid bg-customCobalt text-customWhite">
+            <CardBody className="p-4">
+              <img src={skill.icon} alt={skill.icon} className="w-10 h-10 mx-auto mb-4" />
+              <Typography className="text-xl sm:text-lg mb-2">
                 {skill.title}
               </Typography>
-              <Typography  className="mb-2 text-[18px] sm:text-sm">
+              <Typography className="text-sm">
                 {skill.description}
               </Typography>
             </CardBody>
           </Card>
-          ))}
-        </div>
+        ))}
       </div>
-    
     </div>
   );
 }
-export default Skill
+
+export default Skill;
