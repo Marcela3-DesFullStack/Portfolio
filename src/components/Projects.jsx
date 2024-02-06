@@ -1,6 +1,6 @@
 import { Card, CardBody, Typography, } from "@material-tailwind/react";
 import { useEffect, useState} from "react"
-import Services from "./Services";
+import Services from "./services";
 const { cardProject } = Services;
 
 function Project() {
