@@ -18,7 +18,7 @@ function About() {
             <div id="about" className=" pt-4 sm:pt-0 text-customCobalt ">
                 <p className="mb-3  text-bold text-3xl text-customCobalt sm:text-[25px]">Providing Web Solutions</p>
                 <p className="text-lg text-justify leading-8 text-customCobalt sm:text-[15px] sm:leading-5 sm:pb-1">
-                    Hello there! I'm a full stack web junior developer an engineer. I'm very passionate, creative and dedicated to my
+                    Hello there! I am a full stack web junior developer an engineer. I am very passionate, creative and dedicated to my
                     work.
                     I have acquired during my professional experience the skills and knowledge necessary to make your                        project a success.
                     I enjoy every step of the development process, from discussion and collaboration.
