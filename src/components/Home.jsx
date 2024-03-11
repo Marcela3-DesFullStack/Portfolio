@@ -6,14 +6,17 @@ const Home = () => {
 
   return (
     
-    <div className="sm:h-[80vh] w-full h-[90vh] sm:h-[70vh] overflow-hidden bg-cover bg-center bg-no-repeat flex flex-col sm:flex-row items-center justify-around bg-customCobalt sm:h-[50vh]">
-        <img src={photoMarce} className="sm:w-1/2 sm:transform sm:-translate-x-1/2 sm:top-[20%] absolute left-[50%] top-[175px] rounded-full" />   
-        <div className="sm:top-[60%] sm:pl-10 sm:pr-[5%] sm:flex sm:flex-col sm:items-center sm:justify-center absolute left-[10%] top-[45%] text-customWhite">
-            <p className="text-[25px] sm:text-[15px] ">Hi! I`m</p> 
-            <p className="text-[45px] sm:text-[25px] l">Marcela Niño</p>
-            <p className="text-[25px] sm:text-[14px] ">Full Stack Web Developer and Engineer</p>   
-        </div>
-    </div>
+    <div className="flex flex-row sm:flex-col items-center justify-evenly bg-customCobalt h-[38rem] sm:h-[28rem]">
+      
+      <div className="top-1/2 left-1/2 transform -translate-x-4 -translate-y-4 text-center sm:text-center px-4 sm:-translate-y-1 sm:-translate-x-2">
+          <p className="text-3xl sm:text-lg text-customWhite">Hi! I am</p>
+          <p className="text-5xl sm:text-2xl font-bold text-customWhite">Marcela Niño</p>
+          <p className="text-3xl sm:text-lg text-customWhite">Full Stack Web Developer and Engineer</p>
+      </div>
+      <div className="flex justify-center">
+          <img src={photoMarce} className="w-[350px] h-auto object-cover rounded-full sm:w-[150px] sm:h-[150px]" />
+      </div>
+</div>
 
   )
 };

@@ -9,7 +9,7 @@ function Navbar() {
   };
 
   return (
-    <div className="container mx-auto bg-customCoolgray text-customCobalt font-semibold">
+    <div className="mx-auto bg-customCoolgray text-customCobalt font-semibold text-2xl">
       <nav className="sm:hidden pt-3 pb-2">
         <ul className="flex justify-center gap-12">
           <li className="hover:text-customStone"><a href="#about">About</a></li>
@@ -18,7 +18,7 @@ function Navbar() {
           <li className="hover:text-customStone"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <nav className="sm:flex sm:justify-between items-center h-4 p-6 hidden text-sm relative">
+      <nav className="sm:flex sm:justify-between items-center h-4 p-6 hidden text-lg relative">
         <img
           src={menuIcon}
           alt="Menu Icon"
